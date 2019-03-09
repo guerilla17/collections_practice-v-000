@@ -3,4 +3,4 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  array.sort(function(a, b){return b-a})
+  array.sort(function(a, b){return b-a});
