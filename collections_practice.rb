@@ -3,7 +3,16 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  array.sort(function(a, b){return b-a});
+  array.sort
 end
 
-def 
+def sort_array_char_count
+  array.sort.length  
+end
+
+def swap_elements(array)
+  
+  
+def reverse_array(array)
+  array.reverse
+end
